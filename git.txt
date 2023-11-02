@@ -1,3 +1,29 @@
+Steps-
+Step 1: Create a repository on GitHub
+Step 2: Create a file txt or any type of file to upload.
+Step 3: Open Git Bash and navigate to the folder containing you file to be uploaded
+Step 4: To confirm the existence of the file in the folder try ls
+Step 5: Once confirmed perform git init.
+Step 6: git remote add origin <https code of your GitHub repo>
+Step 7: To check your privileges perform git remote -v
+Step 8: git add . ((.) to add all files or else just name of the file you want to add)
+Step 9: git commit -m "Initial commit"
+Step 10: git push origin master
+Step 11: Check your repo to see if the changes are reflected
+
+
+--------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 1) git config
 Utility : To set your user name and email in the main configuration file.
 How to : To check your name and email type in git config --global user.name and git config -- global user.email.
