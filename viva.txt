@@ -1,0 +1,148 @@
+What is DevOps?
+DevOps is a combination of two words, one is software Development, and second is Operations. This allows a single team to handle the entire application lifecycle, from development to testing, deployment, and operations. DevOps helps you to reduce the disconnection between software developers, quality assurance (QA) engineers, and system administrators.
+DevOps helps to increase organisation speed to deliver applications and services. It also allows organisations to serve their customers better and compete more strongly in the market.
+DevOps can also be defined as a sequence of development and IT operations with better communication and collaboration.
+
+Why use DevOps?
+The operation and development team worked in complete isolation.
+After the design-build, the testing and deployment are performed respectively. That's why they consumed more time than actual build cycles.
+Without the use of DevOps, the team members are spending a large amount of time on designing, testing, and deploying instead of building the project.
+Manual code deployment leads to human errors in production.
+Coding and operation teams have their separate timelines and are not in synch, causing further delays.
+
+Automation, collaboration, integration, config management.
+
+Roles of DevOps
+1. DevOps Engineer 
+2. Build Engineer 
+3. DevOps Evangelist 
+4. Release Manager 
+5. Product manager 
+6. DevOps code developer
+7. Security Engineer 
+Application of DevOps
+1. Application of DevOps in the Online Financial Trading Company
+ 2. Use of DevOps in Network cycling
+3. Application in Car Manufacturing Industries 
+4. Benefits to Airlines Industries
+5. Application to GM Financial
+6. Bug Reduction Benefit of DevOps
+7. Less Time for Integration
+
+
+Relation between DevOps and Software Engineering:
+DevOps and Software Engineering are closely related because DevOps practices and principles are aimed at enhancing the software development and delivery processes. DevOps bridges the gap between software development and IT operations, fostering collaboration, automation, and continuous improvement. It helps software engineers by streamlining the development and deployment pipeline, leading to faster, more reliable, and more efficient software development and delivery.
+
+7 Cs of DevOps:
+The 7 Cs of DevOps are guiding principles to promote a DevOps culture and practices:
+1. Culture: Encourages collaboration and shared responsibility between development and operations.
+2. Collaboration: Promotes teamwork, communication, and knowledge sharing.
+3. Continuous Integration: Emphasizes regular code integration and automated testing.
+4. Continuous Delivery: Advocates the automation of deployment to deliver software more reliably.
+5. Configuration Management: Manages infrastructure and application configurations as code.
+6. Containerization: Uses containers for consistent and portable environments.
+7. Continuous Monitoring: Monitors applications in production for early issue detection and resolution.
+
+Container Lifecycle of Docker:
+The container lifecycle in Docker involves stages such as building container images, storing them in registries, distributing them, orchestrating their deployment, running containers, and monitoring their performance.
+
+Roles of DevOps Engineer:
+DevOps engineers play a crucial role in the DevOps process by collaborating with development and operations teams, automating deployment and infrastructure provisioning, managing CI/CD pipelines, monitoring applications and infrastructure, ensuring security and compliance, and troubleshooting and resolving issues.
+
+GIT:
+Git is a distributed version control system used for managing source code. It allows multiple developers to collaborate on the same project, track changes, and manage different branches of code. Git is widely used in software engineering to maintain code history, track changes, and enable efficient collaboration among team members.
+
+
+Jenkins:
+Jenkins is an open-source automation server used for continuous integration and continuous delivery (CI/CD) of software. It provides a platform to automate various parts of the software development process, such as building, testing, and deploying applications. Jenkins allows developers to set up pipelines, automate tasks, and integrate with other tools to streamline and accelerate the software development lifecycle.
+
+
+Docker:
+Docker is a platform for developing, shipping, and running applications in containers. Containers are lightweight, isolated environments that package an application and its dependencies together. Docker makes it easier to create, deploy, and manage applications consistently across different environments, from development to production. It is widely used for containerization, allowing applications to run reliably and consistently on various infrastructure platforms.
+
+
+
+
+Advantages and Disadvantages of Git, Docker, and Jenkins:
+Git Advantages:
+- Efficient version control and collaboration.
+- Branching and merging capabilities.
+- Strong community support.
+- Integrates well with CI/CD tools.
+
+Git Disadvantages:
+- Learning curve for newcomers.
+- May not handle large binary files efficiently.
+
+Docker Advantages:
+- Consistent and isolated environments.
+- Easy packaging and distribution.
+- Efficient resource utilization and scalability.
+- Strong community support.
+
+Docker Disadvantages:
+- Additional overhead for managing containers.
+- Security concerns if not configured properly.
+- Limited to containerized applications.
+
+Jenkins Advantages:
+- Extensible and supports numerous plugins.
+- Integrates well with various CI/CD tools.
+- Provides automation and orchestration capabilities.
+- Strong community support.
+
+Jenkins Disadvantages:
+- Initial setup and configuration complexity.
+- Requires dedicated resources for maintenance.
+- Limited support for container-based pipelines without additional plugins.
+
+Puppet and Chef DevOps:
+Puppet and Chef are configuration management tools used in DevOps for automating and managing infrastructure and application configurations. They help maintain infrastructure as code, ensuring consistency and repeatability in deployments. Puppet and Chef have similar purposes but different approaches and syntax.
+
+Puppet Tools:
+Puppet provides a set of tools like Puppet Bolt for task automation, Puppet Enterprise for a comprehensive infrastructure management platform, Puppet Forge for sharing and discovering Puppet modules, and PuppetDB for data storage and querying.
+
+Chef DevOps:
+Chef is another configuration management tool similar to Puppet but with its own ecosystem and approach for managing infrastructure. It allows you to define configurations as code using a domain-specific language called Chef DSL. Chef provides tools like Chef Workstation, Chef Automate, and Chef Infra for infrastructure management and automation.
+
+
+What is Nagios?
+Nagios is a free to use open source software tool for continuous monitoring. It helps you to monitor system, network, and infrastructure. It is used for continuous monitoring of systems, applications, service and business process in a DevOps culture.
+
+
+What is jenkins pipeline?
+A Jenkins pipeline is a way to define and automate the continuous integration and continuous delivery (CI/CD) process in code. It consists of stages and steps that represent tasks in your software development workflow, making it easier to manage, reuse, and visualize the entire process. Jenkins pipelines support error handling, parallel and sequential execution, and integration with various tools. They are a key component in modern software development and DevOps for ensuring consistent and efficient software delivery.
+
+
+
+
+
+
+software process models
+
+
+1. Waterfall Model:
+   The Waterfall model is a linear and sequential approach to software development. It consists of distinct phases, such as requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase must be completed before moving on to the next. Changes are challenging to accommodate once a phase is complete, making it suitable for well-understood and stable projects.
+
+
+2. Agile Model:
+   Agile is an iterative and incremental approach to software development. It emphasizes flexibility, collaboration, and customer feedback. Agile methodologies, like Scrum and Kanban, involve breaking the project into small, manageable iterations, delivering working software frequently, and continuously adapting to changing requirements.
+
+
+3. Scrum:
+   Scrum is a specific Agile framework that organizes work into time-boxed iterations called "sprints." It emphasizes regular communication, self-organizing teams, and a focus on delivering a potentially shippable product increment at the end of each sprint.
+
+
+5. Spiral Model:
+   The Spiral model combines elements of the Waterfall model and iterative development. It involves multiple cycles, or spirals, each of which includes phases for planning, risk analysis, engineering, and evaluation. It is particularly useful for projects with significant risks that need continuous risk assessment.
+
+
+6. V-Model (Validation and Verification Model):
+   The V-Model is an extension of the Waterfall model that emphasizes validation and verification at each phase. It links testing activities directly to the corresponding development phases, ensuring that verification and validation are integral to the entire development process.
+
+
+7. Rapid Application Development (RAD):
+   RAD is an iterative and incremental model focused on rapid prototyping and speedy development. It aims to minimize planning and emphasize rapid feedback and continuous user involvement. RAD is suitable for projects with changing requirements and a need for quick delivery.
+
+
+
